@@ -1,21 +1,27 @@
+:root {
+    --light: #bababa;
+    --dark: #999999;
+    --transition-time: 0.3s;
+}
+
 .dark {
     background-color: rgb(32, 32, 32);
-    color: #bababa;
+    color: var(--light);
 }
 
 .dark .title {
-    color: #bababa;
+    color: var(--light);
 }
 
 .dark .title span {
-    color: #999999;
+    color: var(--dark);
 }
 
 .dark a {
-    color: #999999;
-    transition: color 0.12s ease;
+    color: var(--dark);
+    transition: color var(--transition-time) ease;
 }
 
 .dark a:hover { 
-    color: #bababa;
+    color: var(--light);
 }

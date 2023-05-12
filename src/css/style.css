@@ -1,5 +1,6 @@
 ul {
     list-style-type: none;
+    margin: 0;
 }
 
 a {
@@ -9,7 +10,7 @@ a {
 
 main {
     position: absolute;
-    margin-left: 35px;
+    margin-left: 30px;
 }
   
 #bg {
