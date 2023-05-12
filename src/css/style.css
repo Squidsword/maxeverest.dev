@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: larger;
+    text-decoration: none;
+}
+
+main {
+    position: absolute;
+    margin-left: 35px;
+}
+  
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#lists {
+    display: flex;
+}

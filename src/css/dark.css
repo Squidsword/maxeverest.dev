@@ -13,8 +13,9 @@
 
 .dark a {
     color: #999999;
+    transition: color 0.12s ease;
 }
 
-a:hover { 
+.dark a:hover { 
     color: #bababa;
 }
